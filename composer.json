@@ -1,0 +1,26 @@
+{
+    "name": "tarek/multilingue-command",
+    "description": "A command line to generate multilingue files",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tarek AKROUT",
+            "email": "contact@tarek-akrout.tn"
+        }
+    ],
+    "require": {
+        "league/climate": "^3.2"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "TA\\MULTILINGUE\\COMMAND": "src/"
+        },
+        "classmap": [
+            "multilingue.php"
+        ],
+        "exclude-from-classmap": [
+            "**/Tests/"
+        ]
+    },
+}
